@@ -1,0 +1,36 @@
+********************************************************************
+
+MASTERMIND X
+by Ghennadie Mazin
+Time: 14 hours. 
+
+********************************************************************
+
+build.sh was written for this game.
+In Linux "build.sh" can be run in the terminal:
+
+commands:
+
+chmod +x build.sh
+./build.sh
+
+----------
+When build.sh is run, 3 options are possible.
+Write 1 and push enter to compile and run the game.
+----------
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Src folder contains all the .cpp files
+Inc folder contains all the .h files.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The bin folder already contains a compiled version of the game
+Run it in the terminal using command:
+./MasterMindX
+
+{{{{{{{{{{{{ NOTE }}}}}}}}}}}}}}
+
+Graphics Library "SFML" was used for this project.
+If you do not have it, on linux it can be install from the terminal:
+
+sudo apt-get install libsfml-dev
